@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="What it is" max_length="40" name="x_192471_placement_what_it_is" type="collection"/>
+    <element label="What it is" max_length="40" name="x_192471_placement_what_it_is" type="collection">
+        <element label="Description" max_length="2048" name="u_description" type="string"/>
+        <element label="Name" max_length="500" name="u_name" type="string"/>
+    </element>
 </database>

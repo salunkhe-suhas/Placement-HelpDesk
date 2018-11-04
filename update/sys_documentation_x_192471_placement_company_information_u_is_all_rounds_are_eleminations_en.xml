@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_is_all_rounds_are_eleminations" label="Is all rounds are eleminations" language="en" table="x_192471_placement_company_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_is_all_rounds_are_eleminations</element>
+            <help/>
+            <hint/>
+            <label>Is all rounds are eleminations</label>
+            <language>en</language>
+            <name>x_192471_placement_company_information</name>
+            <plural>Is all rounds are eleminations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 06:44:20</sys_created_on>
+            <sys_id>7ed5a2f5db21230013c8dec0cf9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is all rounds are eleminations</sys_name>
+            <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+            <sys_update_name>sys_documentation_x_192471_placement_company_information_u_is_all_rounds_are_eleminations_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 06:44:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

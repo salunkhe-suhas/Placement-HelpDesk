@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Company Information" max_length="40" name="x_192471_placement_company_information" type="collection">
+        <element label="Company Addresss" max_length="2048" name="u_company_addresss" type="string"/>
+        <element display="true" label="Company Name" max_length="1024" name="u_company_name" type="string"/>
+        <element label="Date of Interview" max_length="40" name="u_date_of_interview" type="glide_date"/>
+        <element label="Eligibility Criteria" max_length="40" name="u_eligibility_criteria" type="float"/>
+        <element label="Is all rounds are eleminations" max_length="40" name="u_is_all_rounds_are_eleminations" type="boolean"/>
+        <element label="Is Stipend In Probation" max_length="40" name="u_is_stipend_in_probation" type="boolean"/>
+        <element label="Joining Date" max_length="40" name="u_joining_date" type="glide_date"/>
+        <element label="Joining Location" max_length="2048" name="u_joining_location" type="string"/>
+        <element label="Location of Interview" max_length="1048" name="u_location_of_interview" type="string"/>
+        <element label="Number of Rounds" max_length="40" name="u_number_of_rounds" type="integer"/>
+        <element label="Probation Period (Months)" max_length="40" name="u_probation_period_months" type="integer"/>
+        <element label="Stipend For a Month" max_length="40" name="u_stipend_for_a_month" type="integer"/>
+    </element>
+</database>
