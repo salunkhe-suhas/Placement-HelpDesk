@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_192471_placement.HelpDeskRequest</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>HelpDeskRequest</name>
+        <script><![CDATA[var HelpDeskRequest = Class.create();
+HelpDeskRequest.prototype = {
+	initialize: function(session, request) {
+		this.request = request;
+		this.session = session;
+		this.REQUEST_TYPE = request.type;
+		this.intent_slots = {};
+		this.session_attributes = {};
+		
+		this.response = '';
+	},
+	
+	process: function() {
+		var ir= this.getIntentRecord();
+		
+		if (!ir){
+			return;
+		}
+		
+		this.handleIntent(ir);
+		
+	},
+	
+	getIntentRecord: function() {
+		//If launch request, get the Open record, or else find the intent record
+		
+		if (this.REQUEST_TYPE == 'LaunchRequest'){
+			keyword = 'LaunchRequest';
+		} else {
+			keyword = this.request.intent.name;
+			this.intent_slots = this.request.intent.slots;
+			if (this.session.attributes) {
+				this.session_attributes = this.session.attributes;
+			}
+		}
+		
+		var gintents = new GlideRecord('x_192471_placement_intents');
+		if (gintents.get('u_intent_keyword', keyword)){
+			return gintents;
+		} else {
+			this.setResponse("Something went wrong. Could not find matching intent record in Intents table");
+		}
+		
+		return;
+	},
+	
+	handleIntent: function(intentRecord){
+		var evaluator = new GlideScopedEvaluator();
+		evaluator.putVariable('content', this.intent_slots);
+		evaluator.putVariable('attributes', this.session_attributes);
+		evaluator.putVariable('result', null);
+		evaluator.evaluateScript(intentRecord, 'u_script', null);
+		var res = evaluator.getVariable('result');//added semicolan
+		
+		this.setResponse(evaluator.getVariable('result'));
+	},
+	
+	setResponse: function(response) {
+		this.response = response;
+		return;
+	},
+	
+	type: 'HelpDeskRequest'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-04 11:37:40</sys_created_on>
+        <sys_id>0ad8ab7ddba1230013c8dec0cf961936</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HelpDeskRequest</sys_name>
+        <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+        <sys_update_name>sys_script_include_0ad8ab7ddba1230013c8dec0cf961936</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-04 12:28:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

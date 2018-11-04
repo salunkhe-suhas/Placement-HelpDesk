@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_active" label="Active" language="en" table="x_192471_placement_intents">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_active</element>
+            <help/>
+            <hint/>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_192471_placement_intents</name>
+            <plural>Active</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 11:45:58</sys_created_on>
+            <sys_id>51ea2fbddba1230013c8dec0cf9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
+            <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+            <sys_update_name>sys_documentation_x_192471_placement_intents_u_active_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 11:45:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

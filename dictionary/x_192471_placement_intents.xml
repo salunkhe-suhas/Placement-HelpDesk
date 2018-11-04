@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Intents" max_length="40" name="x_192471_placement_intents" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element label="Intent Keyword" max_length="100" name="u_intent_keyword" type="string"/>
+        <element label="Name" max_length="100" name="u_name" type="string"/>
+        <element default="(function(content, attributes, helpDeskResponse){&#13;&#10;&#9;/*&#13;&#10;&#9;helpDeskResponse.setOutputSpeech(&quot;PlainText/SSML&quot;, &quot;Text goes here&quot;, &quot;SSML goes here&quot;);&#13;&#10;&#9;helpDeskResponse.setReprompt(&quot;PlainText/SSML&quot;, &quot;Text goes here&quot;, &quot;SSML goes here&quot;);&#13;&#10;&#9;helpDeskResponse.setAttributes(attrObj); = Object of session attributes&#13;&#10;&#9;helpDeskResponse.setEnd(false); = Should this end the session?&#13;&#10;&#9;&#13;&#10;&#9;result = erb.getResponse(); = result must be set to the Response object&#13;&#10;&#9;*/&#13;&#10;&#9;&#13;&#10;})(content, attributes, new HelpDeskResponseBuilder());" label="Script" max_length="8000" name="u_script" type="script"/>
+    </element>
+</database>
