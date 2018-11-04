@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="What it is" max_length="40" name="x_192471_placement_what_it_is" type="collection"/>
+</database>
