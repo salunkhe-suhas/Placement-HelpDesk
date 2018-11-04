@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Interview Rounds" max_length="40" name="x_192471_placement_interview_rounds" type="collection">
-        <element display="true" label="Round Name" max_length="1024" name="u_round_name" type="string"/>
+        <element display="true" label="Round Name" max_length="100" name="u_round_name" type="string"/>
     </element>
 </database>

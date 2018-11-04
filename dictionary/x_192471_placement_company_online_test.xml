@@ -2,6 +2,7 @@
 <database>
     <element label="Company Online Test" max_length="40" name="x_192471_placement_company_online_test" type="collection">
         <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
+        <element label="Expected Cut-Off" max_length="40" name="u_expected_cut_off" type="integer"/>
         <element label="Important Topics" max_length="2048" name="u_important_topics" type="string"/>
         <element label="Is General Online Test" max_length="40" name="u_is_general_online_test" type="boolean"/>
         <element label="Is Negative Marking" max_length="40" name="u_is_negative_marking" type="boolean"/>
@@ -14,7 +15,7 @@
         <element label="Time Duration (Minute)" max_length="40" name="u_time_duration_minute" type="integer"/>
         <element label="Total Marks" max_length="40" name="u_total_marks" type="integer"/>
         <element label="Total Questions" max_length="40" name="u_total_questions" type="integer"/>
-        <element label="Which Sections" max_length="4000" name="u_which_sections" reference="x_192471_placement_online_test" type="glide_list"/>
+        <element label="Which Sections" max_length="4000" name="u_which_sections" reference="x_192471_placement_online_test_sections" type="glide_list"/>
         <index name="index">
             <element name="u_company_name"/>
         </index>

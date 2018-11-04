@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Company Information" max_length="40" name="x_192471_placement_company_information" type="collection">
-        <element label="Company Addresss" max_length="2048" name="u_company_addresss" type="string"/>
-        <element display="true" label="Company Name" max_length="1024" name="u_company_name" type="string"/>
+        <element display="true" label="Company Name" max_length="100" name="u_company_name" type="string"/>
         <element label="Date of Interview" max_length="40" name="u_date_of_interview" type="glide_date"/>
         <element label="Eligibility Criteria" max_length="40" name="u_eligibility_criteria" type="float"/>
         <element label="Is all rounds are eleminations" max_length="40" name="u_is_all_rounds_are_eleminations" type="boolean"/>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Company Online Test Section Details" max_length="40" name="x_192471_placement_company_online_test_section_details" type="collection">
+        <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
+        <element label="Expected Cut-Off" max_length="40" name="u_expected_cut_off" type="integer"/>
+        <element label="Section Name" max_length="32" name="u_section_name" reference="x_192471_placement_online_test_sections" type="reference"/>
+        <element label="Time Duration" max_length="40" name="u_time_duration" type="integer"/>
+        <element label="Total Questions" max_length="40" name="u_total_questions" type="integer"/>
+        <index name="index">
+            <element name="u_section_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_company_name"/>
+        </index>
+    </element>
+</database>

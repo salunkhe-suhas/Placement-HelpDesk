@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Online Test Sections" max_length="40" name="x_192471_placement_online_test_sections" type="collection">
+        <element display="true" label="Section Name" max_length="100" name="u_section_name" type="string"/>
+    </element>
+</database>
