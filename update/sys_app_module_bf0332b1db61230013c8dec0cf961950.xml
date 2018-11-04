@@ -12,31 +12,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Technical Round 1s</mobile_title>
+        <mobile_title>Online Tests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_192471_placement_technical_round_1</name>
+        <name>x_192471_placement_online_test</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_192471_placement.technical_round_1_user</roles>
+        <roles>x_192471_placement.online_test_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-11-04 06:53:26</sys_created_on>
+        <sys_created_on>2018-11-04 07:42:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8cf76e79db21230013c8dec0cf96194b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Technical Round 1</sys_name>
+        <sys_id>bf0332b1db61230013c8dec0cf961950</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Online Tests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
-        <sys_update_name>sys_app_module_8cf76e79db21230013c8dec0cf96194b</sys_update_name>
+        <sys_update_name>sys_app_module_bf0332b1db61230013c8dec0cf961950</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-04 07:12:25</sys_updated_on>
+        <sys_updated_on>2018-11-04 07:42:01</sys_updated_on>
         <timeline_page/>
-        <title>Technical Round 1</title>
+        <title>Online Tests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

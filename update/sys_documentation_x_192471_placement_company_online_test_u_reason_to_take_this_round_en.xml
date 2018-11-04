@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reason_to_take_this_round" label="Reason to take this round" language="en" table="x_192471_placement_company_online_test">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reason_to_take_this_round</element>
+            <help/>
+            <hint/>
+            <label>Reason to take this round</label>
+            <language>en</language>
+            <name>x_192471_placement_company_online_test</name>
+            <plural>Reason to take this rounds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 07:48:45</sys_created_on>
+            <sys_id>ae94b2f1db61230013c8dec0cf9619a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reason to take this round</sys_name>
+            <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+            <sys_update_name>sys_documentation_x_192471_placement_company_online_test_u_reason_to_take_this_round_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 07:48:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

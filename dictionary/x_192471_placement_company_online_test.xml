@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Company Online Test" max_length="40" name="x_192471_placement_company_online_test" type="collection">
+        <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
+        <element label="Important Topics" max_length="2048" name="u_important_topics" type="string"/>
+        <element label="Is General Online Test" max_length="40" name="u_is_general_online_test" type="boolean"/>
+        <element label="Is Negative Marking" max_length="40" name="u_is_negative_marking" type="boolean"/>
+        <element label="Is Programming Online Test" max_length="40" name="u_is_programming_online_test" type="boolean"/>
+        <element label="Is Technical Online Test" max_length="40" name="u_is_technical_online_test" type="boolean"/>
+        <element label="Need to attend all questions" max_length="40" name="u_need_to_attend_all_questions" type="boolean"/>
+        <element label="Number of Sections" max_length="40" name="u_number_of_sections" type="integer"/>
+        <element label="Reason to take this round" max_length="2048" name="u_reason_to_take_this_round" type="string"/>
+        <element label="Round Name" max_length="32" name="u_round_name" reference="x_192471_placement_interview_rounds" type="reference"/>
+        <element label="Time Duration (Minute)" max_length="40" name="u_time_duration_minute" type="integer"/>
+        <element label="Total Marks" max_length="40" name="u_total_marks" type="integer"/>
+        <element label="Total Questions" max_length="40" name="u_total_questions" type="integer"/>
+        <element label="Which Sections" max_length="4000" name="u_which_sections" reference="x_192471_placement_online_test" type="glide_list"/>
+        <index name="index">
+            <element name="u_company_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_round_name"/>
+        </index>
+    </element>
+</database>

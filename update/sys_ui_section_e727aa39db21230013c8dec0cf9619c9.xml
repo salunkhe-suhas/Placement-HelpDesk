@@ -253,6 +253,34 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_online_test</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 07:15:56</sys_created_on>
+            <sys_id>3d1d6abddb21230013c8dec0cf961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_192471_placement_company_information" sys_domain="global" view="Default view">e727aa39db21230013c8dec0cf9619c9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 07:15:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_written_test</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-04 07:16:17</sys_created_on>
+            <sys_id>ba2d26bddb21230013c8dec0cf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_192471_placement_company_information" sys_domain="global" view="Default view">e727aa39db21230013c8dec0cf9619c9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-04 07:16:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
