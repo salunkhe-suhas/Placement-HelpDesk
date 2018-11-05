@@ -2,7 +2,6 @@
 <database>
     <element label="Company Information" max_length="40" name="x_192471_placement_company_information" type="collection">
         <element display="true" label="Company Name" max_length="100" name="u_company_name" type="string"/>
-        <element label="Date of Interview" max_length="40" name="u_date_of_interview" type="glide_date"/>
         <element label="Eligibility Criteria" max_length="40" name="u_eligibility_criteria" type="float"/>
         <element label="How to Apply" max_length="4098" name="u_how_to_apply" type="string"/>
         <element label="Instructions" max_length="4098" name="u_instructions" type="string"/>
