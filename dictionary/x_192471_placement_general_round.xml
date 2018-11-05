@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="General Round" max_length="40" name="x_192471_placement_general_round" type="collection">
+        <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
+        <element label="Important Topics" max_length="4098" name="u_important_topics" type="string"/>
+        <element label="Reason" max_length="4098" name="u_reason" type="string"/>
+        <element label="Round Name" max_length="32" name="u_round_name" reference="x_192471_placement_interview_rounds" type="reference"/>
+        <index name="index">
+            <element name="u_company_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_round_name"/>
+        </index>
+    </element>
+</database>

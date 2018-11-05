@@ -2,6 +2,7 @@
 <database>
     <element label="What it is" max_length="40" name="x_192471_placement_what_it_is" type="collection">
         <element label="Description" max_length="2048" name="u_description" type="string"/>
-        <element label="Name" max_length="500" name="u_name" type="string"/>
+        <element label="Name" max_length="100" name="u_name" type="string"/>
+        <element label="Topics to Prepare" max_length="4098" name="u_topics_to_prepare" type="string"/>
     </element>
 </database>
