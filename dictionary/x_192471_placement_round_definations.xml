@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Round Definations" max_length="40" name="x_192471_placement_round_definations" type="collection">
+        <element label="Name" max_length="100" name="u_name" type="string"/>
+        <element label="Reason" max_length="4098" name="u_reason" type="string"/>
+        <element label="Suggestions" max_length="4098" name="u_suggestions" type="string"/>
+        <element label="What It Is" max_length="4098" name="u_what_it_is" type="string"/>
+    </element>
+</database>
