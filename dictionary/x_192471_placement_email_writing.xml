@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Email Writing" max_length="40" name="x_192471_placement_email_writing" type="collection">
+        <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
+        <element label="Important Topics" max_length="4098" name="u_important_topics" type="string"/>
+        <element label="Is Specify Word Limit" max_length="40" name="u_is_specify_word_limit" type="boolean"/>
+        <element label="Round Name" max_length="32" name="u_round_name" reference="x_192471_placement_interview_rounds" type="reference"/>
+        <element label="Time Duration" max_length="40" name="u_time_duration" type="integer"/>
+        <element label="Word Limit (less than)" max_length="40" name="u_word_limit_less_than" type="integer"/>
+        <index name="index">
+            <element name="u_company_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_round_name"/>
+        </index>
+    </element>
+</database>

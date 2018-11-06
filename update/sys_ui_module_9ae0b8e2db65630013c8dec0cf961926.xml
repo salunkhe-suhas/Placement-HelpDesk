@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Placement Help">b0a2e2b5db21230013c8dec0cf96197a</application>
+        <filter/>
+        <name>Email Writings</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_192471_placement.email_writing_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-06 06:08:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ae0b8e2db65630013c8dec0cf961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Writings</sys_name>
+        <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+        <sys_update_name>sys_ui_module_9ae0b8e2db65630013c8dec0cf961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-06 06:08:50</sys_updated_on>
+        <table>x_192471_placement_email_writing</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
