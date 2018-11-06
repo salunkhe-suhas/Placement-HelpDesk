@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element label="Online Test" max_length="40" name="x_192471_placement_online_test" type="collection">
-        <element display="true" label="Name" max_length="100" name="u_name" type="string"/>
-    </element>
-</database>
