@@ -22,26 +22,35 @@ commonUtility.prototype = {
 		}
 	},
 	
-	getIsthereAnswer: function(TestName) {
+	getIsthereAnswer: function(TestName, CompanyName) {
 		var columnName;
 		var columnValue = {
-			'Group Discussion': 'u_group_discussion',
-			'Online Test': 'u_group_discussion',
-			'hr round': 'u_group_discussion',
-			'Technical Round': 'u_group_discussion',
-			'Online Verbal Reasoning Test': 'u_group_discussion',
-			'Online Verbal Ability Test': 'u_group_discussion',
-			'Online Quantitative Ability Test': 'u_group_discussion',
-			'Online Networking Test': 'u_group_discussion',
-			'Online Logical Reasoning Test': 'u_group_discussion',
-			'Online Database Test': 'u_group_discussion',
-			'Online Data Interpretation Test': 'u_group_discussion',
-			'Online Computer Programming and Data Structure': 'u_group_discussion',
-			'Online C Programming Test': 'u_group_discussion',
-			'Online Aptitude Test': 'u_group_discussion',
-			'Online Analytical Ability Test': 'u_group_discussion',
-			'Email Writing': 'u_group_discussion'	
+			'group discussion': 'u_group_discussion',
+			'online test': 'u_online_test',
+			'hr round': 'u_hr_round',
+			'technical round': 'u_technical_round',
+			'online verbal reasoning test': 'u_online_verbal_reasoning_test',
+			'online verbal ability test': 'u_online_verbal_ability_test',
+			'online quantitative ability test': 'u_online_quantitative_ability_test',
+			'online networking test': 'u_online_networking_test',
+			'online logical reasoning test': 'u_online_logical_reasoning_test',
+			'online database test': 'u_online_database_test',
+			'online data interpretation test': 'u_online_data_interpretation_test',
+			'online computer programming and data structure': 'u_online_computer_programming_and_data_structure',
+			'online c programming test': 'u_online_c_programming_test',
+			'online aptitude test': 'u_online_aptitude_test',
+			'online analytical ability test': 'u_online_analytical_ability_test',
+			'email writing': 'u_email_writing'
 		};	
+		columnName = columnValue[TestName];
+		var companyDetails = new GlideRecord('x_192471_placement_company_information');
+		companyDetails.addQuery('u_company_name', CompanyName);
+		companyDetails.query();
+		if ( companyDetails.next() ) {
+			return companyDetails.getValue(columnName);
+		} else {
+			return '';
+		}
 	},
 	
 	type: 'commonUtility'
@@ -50,13 +59,13 @@ commonUtility.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-20 13:20:43</sys_created_on>
         <sys_id>41d264badb8f230013c8dec0cf961960</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>commonUtility</sys_name>
         <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
         <sys_update_name>sys_script_include_41d264badb8f230013c8dec0cf961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-24 07:13:46</sys_updated_on>
+        <sys_updated_on>2019-01-24 10:01:37</sys_updated_on>
     </sys_script_include>
 </record_update>
