@@ -5,19 +5,32 @@
         <element label="Date of Interview " max_length="40" name="u_date_of_interview" type="glide_date"/>
         <element label="Eligibility Criteria" max_length="40" name="u_eligibility_criteria" type="float"/>
         <element label="Eligibility Percentage" max_length="100" name="u_eligibility_percentage" type="string"/>
+        <element label="Email Writing" max_length="2500" name="u_email_writing" type="string"/>
+        <element label="Group Discussion" max_length="2500" name="u_group_discussion" type="string"/>
         <element label="How much I apply" max_length="2500" name="u_how_much_i_apply" type="string"/>
         <element label="How to Apply" max_length="4098" name="u_how_to_apply" type="string"/>
+        <element label="HR Round" max_length="2500" name="u_hr_round" type="string"/>
         <element label="Instructions" max_length="4098" name="u_instructions" type="string"/>
         <element label="Introduction" max_length="4098" name="u_introduction" type="string"/>
-        <element label="Is all rounds are eleminations" max_length="40" name="u_is_all_rounds_are_eleminations" type="boolean"/>
         <element label="Joining Location" max_length="100" name="u_joining_location" type="string"/>
         <element label="Number of Rounds" max_length="40" name="u_number_of_rounds" type="integer"/>
-        <element label="Online Test" max_length="40" name="u_online_test" type="boolean"/>
+        <element label="Online Analytical Ability Test" max_length="2500" name="u_online_analytical_ability_test" type="string"/>
+        <element label="Online Aptitude Test" max_length="2500" name="u_online_aptitude_test" type="string"/>
+        <element label="Online Computer Programming and Data Structure" max_length="2500" name="u_online_computer_programming_and_data_structure" type="string"/>
+        <element label="Online C Programming Test" max_length="2500" name="u_online_c_programming_test" type="string"/>
+        <element label="Online Database Test" max_length="2500" name="u_online_database_test" type="string"/>
+        <element label="Online Data Interpretation Test" max_length="2500" name="u_online_data_interpretation_test" type="string"/>
+        <element label="Online Logical Reasoning Test" max_length="2500" name="u_online_logical_reasoning_test" type="string"/>
+        <element label="Online Networking Test" max_length="2500" name="u_online_networking_test" type="string"/>
+        <element label="Online Quantitative Ability Test" max_length="2500" name="u_online_quantitative_ability_test" type="string"/>
+        <element label="Online Test" max_length="2500" name="u_online_test" type="string"/>
+        <element label="Online Verbal Ability Test" max_length="2500" name="u_online_verbal_ability_test" type="string"/>
+        <element label="Online Verbal Reasoning Test" max_length="2500" name="u_online_verbal_reasoning_test" type="string"/>
         <element label="Package" max_length="100" name="u_package" type="string"/>
         <element label="Probation Period" max_length="100" name="u_probation_period" type="string"/>
+        <element label="Technical Round" max_length="2500" name="u_technical_round" type="string"/>
         <element label="Total Round Names" max_length="2500" name="u_total_round_names" type="string"/>
         <element label="Training period" max_length="100" name="u_training_period" type="string"/>
         <element label="What are rounds" max_length="500" name="u_what_are_rounds" type="string"/>
-        <element label="Written Test" max_length="40" name="u_written_test" type="boolean"/>
     </element>
 </database>

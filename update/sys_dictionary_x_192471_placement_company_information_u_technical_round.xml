@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_online_test" table="x_192471_placement_company_information">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_technical_round" table="x_192471_placement_company_information">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Online Test</column_label>
+        <column_label>Technical Round</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,7 +28,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_online_test</element>
+        <element>u_technical_round</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -53,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-01-24 06:32:43</sys_created_on>
-        <sys_id>98eb2bffdb07e30013c8dec0cf961937</sys_id>
+        <sys_created_on>2019-01-24 06:33:44</sys_created_on>
+        <sys_id>8c2ce3b3db47e30013c8dec0cf961922</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Online Test</sys_name>
+        <sys_name>Technical Round</sys_name>
         <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
-        <sys_update_name>sys_dictionary_x_192471_placement_company_information_u_online_test</sys_update_name>
+        <sys_update_name>sys_dictionary_x_192471_placement_company_information_u_technical_round</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-24 06:32:43</sys_updated_on>
+        <sys_updated_on>2019-01-24 06:33:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
