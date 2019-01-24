@@ -18,9 +18,30 @@ commonUtility.prototype = {
 		recordSysId.query();
 		
 		if ( recordSysId.next() ) {
-			gs.info("From Script Include -"+ recordSysId.getValue('sys_id'));
 			return recordSysId.getValue('sys_id');
-		}	
+		}
+	},
+	
+	getIsthereAnswer: function(TestName) {
+		var columnName;
+		var columnValue = {
+			'Group Discussion': 'u_group_discussion',
+			'Online Test': 'u_group_discussion',
+			'hr round': 'u_group_discussion',
+			'Technical Round': 'u_group_discussion',
+			'Online Verbal Reasoning Test': 'u_group_discussion',
+			'Online Verbal Ability Test': 'u_group_discussion',
+			'Online Quantitative Ability Test': 'u_group_discussion',
+			'Online Networking Test': 'u_group_discussion',
+			'Online Logical Reasoning Test': 'u_group_discussion',
+			'Online Database Test': 'u_group_discussion',
+			'Online Data Interpretation Test': 'u_group_discussion',
+			'Online Computer Programming and Data Structure': 'u_group_discussion',
+			'Online C Programming Test': 'u_group_discussion',
+			'Online Aptitude Test': 'u_group_discussion',
+			'Online Analytical Ability Test': 'u_group_discussion',
+			'Email Writing': 'u_group_discussion'	
+		};	
 	},
 	
 	type: 'commonUtility'
@@ -29,13 +50,13 @@ commonUtility.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-20 13:20:43</sys_created_on>
         <sys_id>41d264badb8f230013c8dec0cf961960</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>commonUtility</sys_name>
         <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
         <sys_update_name>sys_script_include_41d264badb8f230013c8dec0cf961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-01-21 09:06:34</sys_updated_on>
+        <sys_updated_on>2019-01-24 07:13:46</sys_updated_on>
     </sys_script_include>
 </record_update>
