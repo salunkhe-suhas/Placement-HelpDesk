@@ -3,6 +3,7 @@
     <element label="Company Online Test" max_length="40" name="x_192471_placement_company_online_test" type="collection">
         <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
         <element label="Expected Cut-Off" max_length="40" name="u_expected_cut_off" type="integer"/>
+        <element label="Expected Cut-Off" max_length="100" name="u_expected_cut_off1" type="string"/>
         <element label="Important Topics" max_length="2048" name="u_important_topics" type="string"/>
         <element label="Is General Online Test" max_length="40" name="u_is_general_online_test" type="boolean"/>
         <element label="Is Negative Marking" max_length="40" name="u_is_negative_marking" type="boolean"/>
@@ -12,9 +13,13 @@
         <element label="Number of Sections" max_length="40" name="u_number_of_sections" type="integer"/>
         <element label="Reason to take this round" max_length="2048" name="u_reason_to_take_this_round" type="string"/>
         <element label="Round Name" max_length="32" name="u_round_name" reference="x_192471_placement_interview_rounds" type="reference"/>
+        <element label="Section Names" max_length="500" name="u_section_names" type="string"/>
         <element label="Time Duration (Minute)" max_length="40" name="u_time_duration_minute" type="integer"/>
+        <element label="Time Duration (Minute)" max_length="100" name="u_time_duration_minute1" type="string"/>
         <element label="Total Marks" max_length="40" name="u_total_marks" type="integer"/>
         <element label="Total Questions" max_length="40" name="u_total_questions" type="integer"/>
+        <element label="Total Questions" max_length="100" name="u_total_questions1" type="string"/>
+        <element label="What They Ask" max_length="2500" name="u_what_they_ask" type="string"/>
         <element label="Which Sections" max_length="4000" name="u_which_sections" reference="x_192471_placement_online_test_sections" type="glide_list"/>
         <index name="index">
             <element name="u_company_name"/>

@@ -3,10 +3,14 @@
     <element label="Company Online Test Section Details" max_length="40" name="x_192471_placement_company_online_test_section_details" type="collection">
         <element label="Company Name" max_length="32" name="u_company_name" reference="x_192471_placement_company_information" type="reference"/>
         <element label="Expected Cut-Off" max_length="40" name="u_expected_cut_off" type="integer"/>
+        <element label="Expected Cut-Off" max_length="100" name="u_expected_cut_off1" type="string"/>
         <element label="Section Name" max_length="32" name="u_section_name" reference="x_192471_placement_online_test_sections" type="reference"/>
         <element label="Time Duration" max_length="40" name="u_time_duration" type="integer"/>
+        <element label="Time Duration" max_length="100" name="u_time_duration1" type="string"/>
         <element label="Topics to Prepare" max_length="4098" name="u_topics_to_prepare" type="string"/>
         <element label="Total Questions" max_length="40" name="u_total_questions" type="integer"/>
+        <element label="Total Questions" max_length="100" name="u_total_questions1" type="string"/>
+        <element label="What They Ask" max_length="2500" name="u_what_they_ask" type="string"/>
         <index name="index">
             <element name="u_section_name"/>
         </index>

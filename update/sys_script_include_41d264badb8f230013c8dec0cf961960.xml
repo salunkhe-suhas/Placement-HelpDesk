@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_192471_placement.commonUtility</api_name>
+        <client_callable>false</client_callable>
+        <description>Common methods which are use in the application</description>
+        <name>commonUtility</name>
+        <script><![CDATA[var commonUtility = Class.create();
+commonUtility.prototype = {
+	initialize: function() {
+	},
+	
+	getRecordSysId: function(TableName, ColumnName, ColumnValue) {
+		var recordSysId = new GlideRecord(TableName);
+		recordSysId.addQuery(ColumnName, ColumnValue);
+		recordSysId.query();
+		
+		if ( recordSysId.next() ) {
+			gs.info("From Script Include -"+ recordSysId.getValue('sys_id'));
+			return recordSysId.getValue('sys_id');
+		}	
+	},
+	
+	type: 'commonUtility'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-20 13:20:43</sys_created_on>
+        <sys_id>41d264badb8f230013c8dec0cf961960</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>commonUtility</sys_name>
+        <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+        <sys_update_name>sys_script_include_41d264badb8f230013c8dec0cf961960</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-21 09:06:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

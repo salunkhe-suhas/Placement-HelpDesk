@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_probation_period" label="Probation Period" language="en" table="x_192471_placement_company_information">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_probation_period</element>
+            <help/>
+            <hint/>
+            <label>Probation Period</label>
+            <language>en</language>
+            <name>x_192471_placement_company_information</name>
+            <plural>Probation Periods</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 10:14:34</sys_created_on>
+            <sys_id>f6f1450fdbc7630013c8dec0cf9619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Probation Period</sys_name>
+            <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
+            <sys_update_name>sys_documentation_x_192471_placement_company_information_u_probation_period_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 10:14:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
