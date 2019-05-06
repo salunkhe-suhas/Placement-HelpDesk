@@ -2,11 +2,11 @@
 <record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2018-12-30 16:26:52</last_registered_on>
+        <last_registered_on>2019-05-05 13:36:08</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-12-30 16:26:51</sys_created_on>
-        <sys_id>a1344180db32230013c8dec0cf9619d2</sys_id>
+        <sys_created_on>2019-05-05 13:36:07</sys_created_on>
+        <sys_id>1d75dd2cdb11b70013c8dec0cf9619c9</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>d6d16bbe64354de6995de065eb003dd3be29a0f6708e39a76c476a8f9287dc66</sys_name>
         <sys_package display_value="Placement Help" source="x_192471_placement">dc102271db21230013c8dec0cf96199c</sys_package>
@@ -14,9 +14,9 @@
         <sys_push_application_id display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</sys_push_application_id>
         <sys_push_platform_id display_value="Apple">20e71f30ff0002009738ffffffffff6b</sys_push_platform_id>
         <sys_scope display_value="Placement Help">dc102271db21230013c8dec0cf96199c</sys_scope>
-        <sys_update_name>sys_push_notif_app_install_a1344180db32230013c8dec0cf9619d2</sys_update_name>
+        <sys_update_name>sys_push_notif_app_install_1d75dd2cdb11b70013c8dec0cf9619c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-12-30 16:26:52</sys_updated_on>
+        <sys_updated_on>2019-05-05 13:36:08</sys_updated_on>
         <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>d6d16bbe64354de6995de065eb003dd3be29a0f6708e39a76c476a8f9287dc66</token>
     </sys_push_notif_app_install>
